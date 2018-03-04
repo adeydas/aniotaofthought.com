@@ -1,0 +1,20 @@
+baseURL = "https://aniotaofthought.com/"
+languageCode = "en-us"
+title = "An iota of thought"
+theme = "kiss"
+copyright = "&copy; <a href=\"https://abhishekdeydas.com\">Abhishek Dey Das</a> 2018"
+Paginate = 5
+
+[params.info]
+enableSocial = true # Adds OpenGraph and Twitter cards
+homeTitle = "An iota of thought" # Title for home page
+related = true # Includes related articles at the bottom of the article
+
+[taxonomies]
+tag ="tags"
+
+[params.social]
+twitter = "adeydas"
+github = "adeydas"
+linkedin = "adeydas"
+instagram = "adeydas"
