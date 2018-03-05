@@ -1,7 +1,7 @@
 ---
 title: "Static Website With Hugo, S3, Cloudfront, and Route53 - Part 1"
 date: 2018-03-04T17:24:44-08:00
-draft: true
+draft: false
 tags: [aws, hugo, s3, cloudfront, route53]
 ---
 
