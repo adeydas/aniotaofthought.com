@@ -2,7 +2,7 @@ baseURL = "https://aniotaofthought.com/"
 languageCode = "en-us"
 title = "An iota of thought"
 theme = "kiss"
-copyright = "&copy; <a href=\"https://abhishekdeydas.com\">Abhishek Dey Das</a> 2018"
+copyright = "&copy; <a href=\"https://abhishekdeydas.com\">Abhishek Dey Das</a> 2018. All opinions are personal and does not reflect that of my employer or organizations I am associated with."
 Paginate = 5
 
 [params.info]
