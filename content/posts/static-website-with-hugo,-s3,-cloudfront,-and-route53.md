@@ -39,4 +39,5 @@ Although its possible to create a *CNAME* record on any domain provider and poin
 # Setting up SSL
 An optional but highly recommended step is to setup SSL. Since I used CloudFront to 'front' my website, I set up a custom certificate for my domain on my CloudFront distribution. AWS offers certificates via its Certificate Manager. One may also upload a custom one. 
 
-And that's all. My next goal is to automate deployment on *git push*. Stay tuned for that blog post.
+# Conclusion
+And that's all. Stay tuned for more posts on Hugo and AWS as I work towards creating a more streamlined static blogging experience.
