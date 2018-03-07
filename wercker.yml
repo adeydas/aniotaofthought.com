@@ -1,4 +1,4 @@
-box: debian
+box: restlessbandit/ubuntu12.04-saltstack-pip@0.0.1
 build:
   steps:
     - arjen/hugo-build:
