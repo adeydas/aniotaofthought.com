@@ -7,6 +7,8 @@ build:
         config: config.toml
 deploy:
   steps:
+    - pip-install:
+        packages_list: "python-certifi"
     - s3sync:
         key-id: $AWS_ACCESS_KEY
         key-secret: $AWS_SECRET_ACCESS_KEY
