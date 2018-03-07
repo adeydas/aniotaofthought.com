@@ -7,7 +7,7 @@ build:
         config: config.toml
 deploy:
 	steps:
-	- ClusterVR/wercker-step-s3sync
+	- ClusterVR/wercker-step-s3sync:
 	key:    $AWS_ACCESS_KEY
 	secret: $AWS_SECRET_ACCESS_KEY
 	source: $SOURCE_PATH
