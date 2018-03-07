@@ -3,8 +3,6 @@ build:
   steps:
     - arjen/hugo-build:
         version: "0.37"
-        theme: kiss
-        config: config.toml
 deploy:
   steps:
     - pip-install:
