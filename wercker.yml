@@ -1,4 +1,4 @@
-box: restlessbandit/ubuntu12.04-saltstack-pip
+box: wercker/python
 build:
   steps:
     - arjen/hugo-build:
