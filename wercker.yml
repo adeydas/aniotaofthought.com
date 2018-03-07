@@ -7,8 +7,9 @@ build:
         config: config.toml
 deploy:
   steps:
-    - ClusterVR/wercker-step-s3sync:
-        key: $AWS_ACCESS_KEY
-        secret: $AWS_SECRET_ACCESS_KEY
-        source: $SOURCE_PATH
-        bucket: $DESTINATION_BUCKET
+    - s3sync:
+        key-id: $AWS_ACCESS_KEY
+        key-secret: $AWS_SECRET_ACCESS_KEY
+        source-dir: $SOURCE_PATH
+        bucket-url: $DESTINATION_BUCKET
+        opts: --acl-public
