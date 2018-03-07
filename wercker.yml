@@ -2,7 +2,7 @@ box: python
 build:
   steps:
     - arjen/hugo-build:
-        version: "0.37"
+        version: "HEAD"
 deploy:
   steps:
     - pip-install:
