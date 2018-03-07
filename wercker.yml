@@ -8,6 +8,7 @@ build:
 deploy:
   steps:
     - pip-install:
+        requirements_file: ""
         packages_list: "python-certifi"
     - s3sync:
         key-id: $AWS_ACCESS_KEY
