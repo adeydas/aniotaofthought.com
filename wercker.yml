@@ -3,6 +3,8 @@ build:
   steps:
     - arjen/hugo-build:
         version: "0.17"
+        theme: kiss
+        flags: --buildDrafts=true
 deploy:
   steps:
     - pip-install:
