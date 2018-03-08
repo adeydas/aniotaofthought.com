@@ -2,10 +2,12 @@ box: python
 build:
   steps:
     - arjen/hugo-build:
-        version: "0.36.1"
+        version: "0.37"
         theme: kiss
         flags: --buildDrafts=true
         dev_flags: -D -F -v
+        config: config.toml
+        prod_branches: master
 deploy:
   steps:
     - pip-install:
