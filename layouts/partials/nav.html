@@ -9,6 +9,7 @@
         {{ range .Site.Menus.main }}
           <a class="sidebar-nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a> &nbsp; &nbsp;
         {{ end }}
+        <a class="sidebar-nav-item" href="{{ .Site.RSSLink }}" title="RSS">RSS</a>
       </div>
     </nav>
   </div>
