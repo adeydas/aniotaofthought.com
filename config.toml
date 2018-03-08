@@ -25,8 +25,3 @@ tag ="tags"
     pre = "<i class='fa fa-road'></i>"
     weight = -100
     url = "https://abhishekdeydas.com/photos/"
-[[menu.main]]
-    name = "Source code"
-    pre = "<i class='fa fa-road'></i>"
-    weight = -100
-    url = "https://github.com/adeydas/aniotaofthought.com"
