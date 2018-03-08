@@ -2,7 +2,7 @@ box: python
 build:
   steps:
     - arjen/hugo-build:
-        version: "HEAD"
+        version: "0.37"
         theme: kiss
         flags: --buildDrafts=true
         dev_flags: -D -F -v
