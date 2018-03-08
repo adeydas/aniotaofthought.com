@@ -1,7 +1,7 @@
 baseURL = "https://aniotaofthought.com/"
 languageCode = "en-us"
 title = "An iota of thought"
-theme = "ananke"
+theme = "kiss"
 copyright = "&copy; All copyrights reserved by <a href=\"https://abhishekdeydas.com\">Abhishek Dey Das</a>. All opinions are personal and does not reflect that of my employer or organizations I am associated with."
 Paginate = 5
 disqusShortname = "an-iota-of-thought"

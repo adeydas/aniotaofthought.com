@@ -2,9 +2,10 @@ box: python
 build:
   steps:
     - arjen/hugo-build:
-        version: "0.17"
-        theme: ananke
+        version: "0.36.1"
+        theme: kiss
         flags: --buildDrafts=true
+        dev_flags: -D -F -v
 deploy:
   steps:
     - pip-install:
