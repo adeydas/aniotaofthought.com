@@ -5,7 +5,10 @@
         <a class="nav-item" href="{{ .Site.BaseURL }}"><h1 class="title is-4">{{ .Site.Title }}</h1></a>
       </div>
       <div class="nav-right">
-        &nbsp;
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+          <a class="sidebar-nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a> &nbsp; &nbsp;
+        {{ end }}
       </div>
     </nav>
   </div>

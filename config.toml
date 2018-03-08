@@ -13,3 +13,20 @@ related = true # Includes related articles at the bottom of the article
 
 [taxonomies]
 tag ="tags"
+
+[[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-heart'></i>"
+    weight = -110
+    identifier = "about"
+    url = "https://abhishekdeydas.com/"
+[[menu.main]]
+    name = "Photos"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -100
+    url = "https://abhishekdeydas.com/photos/"
+[[menu.main]]
+    name = "Source code"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -100
+    url = "https://github.com/adeydas/aniotaofthought.com"
