@@ -3,6 +3,7 @@ title: "Static Website With Hugo, S3, Cloudfront, and Route53 - Part 1"
 date: 2018-03-04T17:24:44-08:00
 draft: false
 tags: [aws, hugo, s3, cloudfront, route53]
+layout: "post"
 ---
 
 I started playing with [Hugo](https://gohugo.io/) recently, a super fast static website generator written in Go. I had tried using Middleman and Jekyll earlier, but the constant issues with maintaining a consistent version set of ruby dependencies was getting on my nerves. For a short while I even moved back to Wordpress, not the proudest moment in my life, but necessary to avoid spending copious amounts of time on Ruby dependencies. However, when Hugo began to trend, I decided to give it a try and here we are. This post is about setting up this blog, created with Hugo, on a string of AWS technologies, in an entirely serverless manner.

@@ -3,6 +3,7 @@ title: "Our B1 B2 Visa Experience"
 date: 2018-01-06T11:55:35-08:00
 draft: false
 tags: [immigration,usa]
+layout: "post"
 ---
 
 We (my wife and I) applied for the B2 visa in September 2017, and I was granted one on the day of the interview while my wife was given one within seven days of a 221(g). This blog post is on what I learned from our experience.

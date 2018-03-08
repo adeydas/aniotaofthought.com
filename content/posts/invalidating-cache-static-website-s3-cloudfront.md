@@ -3,6 +3,7 @@ title: "Invalidating Cache For a Static Website With S3 and Cloudfront"
 date: 2018-03-05T19:54:23-08:00
 draft: false
 tags: [aws, hugo, s3, cloudfront, route53]
+layout: "post"
 ---
 
 I am using CloudFront to serve as an edge cache for my static blog, and an issue I faced with that approach is cache invalidation. Whenever I write a new blog post, my statically generated index and tag pages are updated as well, but since CloudFront had already cached them, the new content doesn't show up till the said cache has expired. This post is about invalidating the CloudFront cache automatically when I upload new content to my S3 bucket. Read my [first post](https://aniotaofthought.com/posts/static-website-with-hugo-s3-cloudfront-and-route53/) on how I set up my statically generated blog.
