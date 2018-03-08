@@ -13,12 +13,3 @@ related = true # Includes related articles at the bottom of the article
 
 [taxonomies]
 tag ="tags"
-
-[params.social]
-twitter = "adeydas"
-github = "adeydas"
-linkedin = "adeydas"
-instagram = "adeydas"
-email = "abhishek@abhis.ws"
-facebook = "adeydas"
-codepen = ""
