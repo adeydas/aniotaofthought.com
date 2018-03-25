@@ -12,6 +12,9 @@ enableSocial = true # Adds OpenGraph and Twitter cards
 homeTitle = "An iota of thought" # Title for home page
 related = true # Includes related articles at the bottom of the article
 
+[params.opengraph.twitter]
+page = "adeydas" # Twitter Page username. If not set, params.social.twitter will be used.
+
 [taxonomies]
 tag ="tags"
 
