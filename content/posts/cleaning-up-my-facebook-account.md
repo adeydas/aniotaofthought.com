@@ -6,7 +6,7 @@ tags: [facebook, social media, security, technology]
 layout: "post"
 ---
 
-The Facebook and Cambridge Analytica fiasco brought up a very fundamental question: what more is required on part of the end-user to ensure that their accounts are secure. If you aren't aware of the aforementioned fiasco, a company called Cambridge Analytica retrieved a bunch of data from Facebook using Facebook apps and other means, to draw up profiles and influence voters for Brexit and the recent US Presidential election. If you want to read more about the fiasco, [here's](https://www.vox.com/policy-and-politics/2018/3/23/17151916/facebook-cambridge-analytica-trump-diagram) a nice article on it. Since the time seemed opportune, I decided to do a little house cleaning of my FB account.
+The Facebook and Cambridge Analytica fiasco brought up a very fundamental question: what more is required on part of the end-user to ensure that their accounts are secure. If you aren't aware of the aforementioned fiasco, a company called Cambridge Analytica retrieved a bunch of data from Facebook using Facebook apps and other means, to draw up profiles and influence voters for Brexit and the recent US Presidential election. If you want to read more about the fiasco, [here's](https://www.vox.com/policy-and-politics/2018/3/23/17151916/facebook-cambridge-analytica-trump-diagram) a nice article on it. Since the time seemed opportune, I decided to do a little spring cleaning of my FB account.
 
 Delete dangling apps
 ---------------------------
