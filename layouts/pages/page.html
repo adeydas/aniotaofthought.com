@@ -13,6 +13,7 @@
     {{ end }}
     <div class="content">
       {{ .Content }}
+      <p>Last modified on {{ .Lastmod.Format "January 2, 2006" }}</p>
       {{ if .Site.Params.Info.related }}
       <div class="related">{{ partial "related" . }}</div>
       {{ end }}
