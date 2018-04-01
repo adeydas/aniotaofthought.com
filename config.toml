@@ -23,7 +23,7 @@ tag ="tags"
     pre = "<i class='fa fa-heart'></i>"
     weight = -110
     identifier = "about"
-    url = "https://abhishekdeydas.com/"
+    url = "/pages/about/"
 [[menu.main]]
     name = "Photos"
     pre = "<i class='fa fa-road'></i>"
