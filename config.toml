@@ -29,3 +29,8 @@ tag ="tags"
     pre = "<i class='fa fa-road'></i>"
     weight = -100
     url = "https://abhishekdeydas.com/photos/"
+[[menu.main]]
+    name = "Archive"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -100
+    url = "/posts/"
