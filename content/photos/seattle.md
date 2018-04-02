@@ -1,7 +1,6 @@
 ---
 title: "In and around Seattle"
 date: 2017-03-01T19:20:29-07:00
-draft: true
 draft: false
 layout: "album"
 featured_image: "https://d2s855qyxvtbgz.cloudfront.net/wp-content/uploads/2017/08/06220809/20160909-_DSC3469-2.jpg"
