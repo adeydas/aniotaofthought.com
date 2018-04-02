@@ -7,16 +7,19 @@ googleAnalytics = "UA-116726845-1"
 Paginate = 5
 disqusShortname = "an-iota-of-thought"
 
+[params]
+    custom_css = ["css/custom.css"]
+
 [params.info]
-enableSocial = true # Adds OpenGraph and Twitter cards
-homeTitle = "An iota of thought" # Title for home page
-related = true # Includes related articles at the bottom of the article
+    enableSocial = true # Adds OpenGraph and Twitter cards
+    homeTitle = "An iota of thought" # Title for home page
+    related = true # Includes related articles at the bottom of the article
 
 [params.opengraph.twitter]
-page = "adeydas" # Twitter Page username. If not set, params.social.twitter will be used.
+    page = "adeydas" # Twitter Page username. If not set, params.social.twitter will be used.
 
 [taxonomies]
-tag ="tags"
+    tag ="tags"
 
 [[menu.main]]
     name = "About"
@@ -34,3 +37,8 @@ tag ="tags"
     pre = "<i class='fa fa-road'></i>"
     weight = -100
     url = "/posts/"
+[[menu.main]]
+    name = "Projects"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -100
+    url = "/pages/projects/"
