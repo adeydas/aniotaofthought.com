@@ -1,6 +1,6 @@
 ---
 title: "Living It Up in California"
-date: 2018-04-01T19:41:32-07:00
+date: 2016-11-01T19:41:32-07:00
 draft: false
 layout: "album"
 featured_image: "https://d2s855qyxvtbgz.cloudfront.net/wp-content/uploads/2017/12/06220641/california-04976.jpg"
