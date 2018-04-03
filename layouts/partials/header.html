@@ -15,5 +15,8 @@
 {{- range .Site.Params.Assets.customCSS -}}
 <link rel='stylesheet' href='{{ . | relURL }}'>
 {{- end -}}
+{{ range .Site.Params.custom_css -}}
+    <link rel="stylesheet" href="{{ . | absURL }}">
+{{- end }}
 </head>
 <body>
