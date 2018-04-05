@@ -13,6 +13,12 @@ Based on a project by Di-Labs, PolygonCreator can be used to visually select a g
 
 Here's the application: [Polygon Creator](http://polygoncreator.abhis.ws/)
 
+**Biryani Lover**
+
+Biryani Lover is a [twitter account](https://twitter.com/biryanilvr) that scrapes twitter to get tweets on biryani, especially ones with delicious pictures of the dish. Once it finds a tweet that contains a delicious photo of biryani, it runs it through an image recognition algorithm to determine how awesome it is and then retweets it.
+
+Follow [it](https://twitter.com/biryanilvr) to get regular, awesome and delicious tweets on biryani from all around the world.
+
 ## Academic projects
 **CometPark**
 
