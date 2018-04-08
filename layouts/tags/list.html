@@ -2,6 +2,8 @@
 {{ partial "nav" . }}
 <section class="section">
   <div class="container">
+    {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
+    {{if lt (len $paginator.Pages) 1}}
     <h1>All Tags</h1>
     {{ range $.Site.Taxonomies.tags.ByCount }}
     <span>
@@ -9,7 +11,9 @@
     </span>
     <span>&nbsp;</span>
   {{end}}
-    {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
+  {{end}}
+
+    
     {{ range sort $paginator.Pages }}
     <article>
       <div class="subtitle is-6 is-pulled-right">
