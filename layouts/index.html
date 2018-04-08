@@ -2,7 +2,7 @@
 {{ partial "nav" . }}
 <section class="section">
   <div class="container">
-    <blockquote>Hi, I am Abhishek and welcome to my blog. Here are 5 recent posts I have written. If you want to see a list of all posts I have written, I have got an <a href="/posts/">archive</a>. You can also start from a <a href="/tags/">tag of choice</a>. Apart from being a tech geek, I am also a hobbyist photographer. <a href="/photos/">Here</a> are some photos. Enjoy!</blockquote>
+    <blockquote>Hi, I am Abhishek and welcome to my blog. Here are 5 recent posts I have written. If you want to see a list of all posts I have written, I have got an <a href="/posts/">archive</a>. You can also start from a <a href="/tags/index.html">tag of choice</a>. Apart from being a tech geek, I am also a hobbyist photographer. <a href="/photos/">Here</a> are some photos. Enjoy!</blockquote>
     <p>&nbsp;</p>
     {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
     {{ range sort $paginator.Pages }}
