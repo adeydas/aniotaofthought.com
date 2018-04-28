@@ -4,7 +4,7 @@ date: 2018-04-01T17:27:53-07:00
 draft: false
 layout: "page"
 ---
-A (*partial*) list of stuff I have either done in the public domain or can share with the same.
+A (*partial*) list of stuff I have either done in the public domain or can share with the same. I also have a [LinkedIn page](https://www.linkedin.com/in/adeydas/).
 
 ## Personal projects
 **Polygon Creator**
@@ -18,6 +18,26 @@ Here's the application: [Polygon Creator](http://polygoncreator.abhis.ws/)
 Biryani Lover is a [twitter account](https://twitter.com/biryanilvr) that scrapes twitter to get tweets on biryani, especially ones with delicious pictures of the dish. Once it finds a tweet that contains a delicious photo of biryani, it runs it through an image recognition algorithm to determine how awesome it is and then retweets it.
 
 Follow [it](https://twitter.com/biryanilvr) to get regular, awesome and delicious tweets on biryani from all around the world.
+
+## Freelance projects
+I worked as a freelance developer for sometime. These are some projects I worked on:
+
+**[Zelinx (now UnoLinks)] (http://unolinks.com/)**
+
+Developed the entire backend, and email collaboration system for POP/IMAP servers and an API to “talk” with its mobile apps in PHP and MySQL.
+
+**[DropMiddleMan](http://getfundinggroup.com/)**
+
+Developed the entire backend of the system starting from the admin panel to the interfaces and application logic for all layers of abstraction in PHP with MySQL database at its backend.
+
+**[MotiveMinds CMS](http://www.motiveminds.com/)**
+
+Developed the code base of the CMS, a caching system to optimize the executable code and a search engine optimized URL system in PHP and MySQL.
+
+**[WingSoft Technologies](http://wingsofttechnology.com/)**
+
+Developed the Joomla theme and an extension for connecting with vTiger.
+
 
 ## Academic projects
 **CometPark**
