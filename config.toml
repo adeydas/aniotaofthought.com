@@ -2,7 +2,7 @@ baseURL = "https://aniotaofthought.com/"
 languageCode = "en-us"
 title = "Abhishek Dey Das"
 theme = "kiss"
-copyright = "&copy; All copyrights reserved by <a href=\"https://abhishekdeydas.com\">Abhishek Dey Das</a>. All opinions are personal and does not reflect that of my employer or organizations I am associated with."
+copyright = "&copy; All copyrights reserved by <a href=\"https://aniotaofthought.com\">Abhishek Dey Das</a>. All opinions are personal and does not reflect that of my employer or organizations I am associated with."
 googleAnalytics = "UA-116726845-1"
 Paginate = 5
 disqusShortname = "an-iota-of-thought"
