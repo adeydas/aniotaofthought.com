@@ -10,7 +10,8 @@
         {{ range .Site.Menus.main }}
           <a class="level-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a> &nbsp;
         {{ end }}
-        <a class="level-item" href="{{ .Site.RSSLink }}" title="RSS">RSS</a>
+        &nbsp;<a href="http://feeds.feedburner.com/AbhishekDeyDas" rel="alternate" type="application/rss+xml"><img src="//feedburner.google.com/fb/images/pub/feed-icon16x16.png" alt="" style="vertical-align:middle;border:0"/></a>
+        <!-- <a class="level-item" href="{{ .Site.RSSLink }}" title="RSS">RSS</a> -->
         </nav>
       </div>
     </nav>
