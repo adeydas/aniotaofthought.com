@@ -13,7 +13,9 @@
     {{ end }}
     <div class="content">
       {{ .Content }}
-      <p>&nbsp;</p>
+      {{ if .Site.Params.Info.related }}
+      <div class="related">{{ partial "related" . }}</div>
+      {{ end }}
       <p><em>Last modified on {{ .Lastmod.Format "January 2, 2006" }}</em></p>
       {{ if .Site.Params.Info.related }}
       <div class="related">{{ partial "related" . }}</div>
@@ -24,4 +26,5 @@
     {{ end}}
   </div> 
 </section>
+{{ partial "disqus" . }}
 {{ partial "footer" . }}
