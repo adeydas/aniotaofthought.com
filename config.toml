@@ -22,12 +22,6 @@ disqusShortname = "an-iota-of-thought"
     tag ="tags"
 
 [[menu.main]]
-    name = "About"
-    pre = "<i class='fa fa-heart'></i>"
-    weight = -110
-    identifier = "about"
-    url = "/pages/about/"
-[[menu.main]]
     name = "Photos"
     pre = "<i class='fa fa-road'></i>"
     weight = -100
