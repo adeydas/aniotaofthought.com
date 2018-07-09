@@ -22,6 +22,11 @@ disqusShortname = "an-iota-of-thought"
     tag ="tags"
 
 [[menu.main]]
+    name = "Homepage"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -200
+    url = "https://abhis.ws"
+[[menu.main]]
     name = "Photos"
     pre = "<i class='fa fa-road'></i>"
     weight = -100
